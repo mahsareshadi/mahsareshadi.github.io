@@ -1,6 +1,7 @@
 @import url(./fonts/fonts.css);
 #nav-links {
-    
+    position: sticky;
+    top: 0;
 }
 
 .list {

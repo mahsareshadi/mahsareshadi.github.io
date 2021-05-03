@@ -1,9 +1,20 @@
 @import url(./fonts/fonts.css);
 .content-header {
     font-family: "font1";
-    font-size: 80px;
+    font-size: 90px;
 }
 
 .body-content {
+    text-align: center;
+}
+.contact-png{
+    width: 40px;
+    height: 40px;
+}
+
+.table-of-contact{
+ 
+    font-size:25px;
+    width: 300px;
     text-align: center;
 }

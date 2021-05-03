@@ -30,12 +30,18 @@ export function Resume() {
             <Content point="Skils" header="Skills">
                 <div>This is my skills</div>
             </Content>
-            <Content point="Contact" header="Contact Me">
-                <div>
-
-                </div>
+            <Content id="table" point="Contact" header="Contact Me">
+                    <table className="table-of-contact">
+                        <tr>
+                            <td><img className="contact-png" src="./assets/icon/email.png" alt="email-png" /></td>
+                            <td><span>Mahsa@Reshadi.com</span></td>
+                        </tr>
+                        <tr>
+                            <td><img className="contact-png" src="./assets/icon/phone.png" alt="phone-png" /></td>
+                            <td><span>‪(408) 548-7621</span></td>
+                        </tr>
+                    </table>
             </Content>
-
         </div>
     );
 }
