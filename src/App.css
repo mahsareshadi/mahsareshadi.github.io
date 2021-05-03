@@ -1,9 +1,32 @@
 @import url(./fonts/fonts.css);
-.test{
-    width: fit-content;
-    font-family: "font2";
-    font-size: 50px;
-    color: indigo;
-    background-color: khaki;
+.cnt {
+    height: 2200px;
+    width: 100%;
+    background-color: rgb(173, 163, 144);
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: "nav nav nav" "lmenu resume img";
+    align-content: center;
 }
- 
+
+#nav {
+    grid-template-columns: repeat(4, minmax(400px, 1fr));
+    background-color: #c08081;
+    grid-area: nav;
+}
+
+#img {
+    grid-area: img;
+   
+}
+
+#menu {
+    background-color: #d98695;
+    grid-area: lmenu;
+}
+
+#resume {
+    width: 900px;
+    background-color: mediumseagreen;
+    grid-area: resume;
+}

@@ -5,16 +5,15 @@ import { Menu } from "./menu"
 import Image from "./image"
 
 function App() {
-  return (
-    <>
-      <Navigation></Navigation>
-      <Image></Image>
-      <Menu></Menu>
-      <Resume></Resume>
-    </>
-  );
+    return (
+        <div className="cnt">
+            <div id="nav"><Navigation></Navigation></div>
+            <div id="img" ><Image></Image></div>
+            <div id="menu" ><Menu></Menu></div>
+            <div id="resume" ><Resume></Resume></div>
+        </div>
+    );
 }
 
-console.log("test");
 
 export default App;

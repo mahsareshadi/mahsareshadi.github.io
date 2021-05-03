@@ -2,19 +2,23 @@ import "./nav.css"
 function Nav(props) {
     return (
 
-        <li><a className="links" href={"#" + props.link}>{props.children}</a></li>
+        <li><a className="a-links" href={"#" + props.link}>{props.children}</a></li>
 
     )
 }
 
 export function Navigation() {
     return (
-        <ul className="list">
-            <Nav link="about"><b>About</b></Nav>
-            <Nav link="Education">Education</Nav>
-            <Nav link="Work">Work</Nav>
-            <Nav link="Projects">Projects</Nav>
+        <div id="nav-links">
+            <ul className="list">
+                <Nav link="about"><b>About</b></Nav>
+                <Nav link="Projects"><b>Projects</b></Nav>
+                <Nav link="Education"><b>Education</b></Nav>
+                <Nav link="Skils"><b>Skils</b></Nav>
+                <Nav link="Contact"><b>Contact</b></Nav>
 
-        </ul>
+                
+            </ul>
+        </div>
     )
 }

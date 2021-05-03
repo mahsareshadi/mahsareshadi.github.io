@@ -3,17 +3,17 @@ import "./menu.css"
 function SetVal (props){
     return(
         <div >
-            <a href={"#"+ props.link}>{props.children}</a>
+            <a href={props.link}>{props.children}</a>
         </div>
     )
 }
 export function Menu(){
     return(
-        <div>
-        <SetVal link="l1"><Vertical vertical="Mahsa Reshadi"/></SetVal>
-        <SetVal link="l2"><img className="logo" src="./assets/icon/github.png" alt="png"/></SetVal>
-        <SetVal link="l2"><img className="logo" src="./assets/icon/linkedin.png" alt="png"/></SetVal>
-        <SetVal link="l3"><img className="logo" src="./assets/icon/twitter.png" alt="png"/></SetVal>
+        <div id="lmenu">
+        <SetVal link="#l1"><Vertical vertical="Mahsa Reshadi"/></SetVal>
+        <SetVal link="https://github.com/mahsareshadi"><img className="social-media-logo" src="./assets/icon/github.png" alt="png"/></SetVal>
+        <SetVal link="https://www.linkedin.com/in/mahsa-reshadi-44646620b/"><img className="social-media-logo" src="./assets/icon/linkedin.png" alt="png"/></SetVal>
+        <SetVal link="https://twitter.com/mahsareshadi"><img className="social-media-logo" src="./assets/icon/twitter.png" alt="png"/></SetVal>
         </div>
     )
 

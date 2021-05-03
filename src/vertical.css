@@ -1,5 +1,8 @@
-#test{
+@import url(./fonts/fonts.css);
+#name {
+    font-family: "font1";
     font-size: 30px;
     writing-mode: tb-rl;
-    transform: rotate(-180deg)
+    transform: rotate(-180deg);
+    padding-right: 15px;
 }

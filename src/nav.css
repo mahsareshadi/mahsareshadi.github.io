@@ -1,9 +1,25 @@
-.list{
+@import url(./fonts/fonts.css);
+#nav-links {
+    
+}
+
+.list {
+    text-align: center;
     list-style-type: none;
 }
-.list li{
+
+.list li {
     display: inline-block;
 }
-.links{
-     text-decoration :none;
+
+.a-links {
+    padding: 14px 50px;
+    font-size: 20px;
+    font-family: "font1";
+    text-decoration: none;
+}
+
+.a-links:hover {
+    font-style: italic;
+    color: oldlace;
 }
