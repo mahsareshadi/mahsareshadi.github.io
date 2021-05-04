@@ -10,12 +10,14 @@
 }
 
 .list li {
-    display: inline-block;
+    display: unset;
+
 }
 
 .a-links {
+    color: #362616;
     padding: 14px 50px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "font1";
     text-decoration: none;
 }

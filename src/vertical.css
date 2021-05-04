@@ -1,7 +1,8 @@
 @import url(./fonts/fonts.css);
 #name {
+    color: #362616;
     font-family: "font1";
-    font-size: 30px;
+    font-size: 35px;
     writing-mode: tb-rl;
     transform: rotate(-180deg);
     padding-right: 15px;

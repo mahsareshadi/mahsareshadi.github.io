@@ -1,8 +1,6 @@
 #my-img
 {
-    width: 400px;
-    height: 640px;
+    justify-content: center;
     position: sticky;
-    top: 60px;
-    
+    top: 65px;
 }

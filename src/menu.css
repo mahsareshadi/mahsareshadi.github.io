@@ -1,8 +1,7 @@
 @import url(./fonts/fonts.css);
 #lmenu {
     position: sticky;
-    top: 60px;
-    flex-direction: column;
+    top: 65px;
     padding-top: 10px;
 }
 

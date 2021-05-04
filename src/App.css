@@ -1,34 +1,48 @@
 @import url(./fonts/fonts.css);
 .cnt {
-    height: 2200px;
-    width: 100%;
-    background-color: rgb(173, 163, 144);
+    background-color:#faf0e6;
     display: grid;
     grid-gap: 5px;
-    grid-template-areas: "nav nav nav" "lmenu resume img";
+    grid-template-columns: 65px auto 360px;
+    grid-template-areas: "nav nav nav "
+    "lmenu resume img";
     align-content: center;
 }
 
 #nav {
-    grid-template-columns: repeat(4, minmax(400px, 1fr));
-    background-color: #c08081;
     grid-area: nav;
+    background-color:  #c3b091;
     position: sticky;
     top: 0;
 }
 
 #img {
     grid-area: img;
-    
+    background-color: #faf0e6;
+    width: 360px;
 }
 
 #menu {
-    background-color: #d98695;
     grid-area: lmenu;
+    width: 65px;
+    background-color: #c3b091;
 }
 
 #resume {
-    width: 900px;
-    background-color: mediumseagreen;
     grid-area: resume;
+    width: 100%;
+    background-color:#c19a6b;
+}
+@media screen and (max-width:800px){
+    .cnt {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns:auto;
+        width: 100%;
+        grid-template-areas:"resume";
+        align-content: center;
+    }
+    #menu,#img,#nav{
+        visibility: hidden;
+    }
 }
