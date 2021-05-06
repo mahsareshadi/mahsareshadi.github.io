@@ -1,4 +1,5 @@
 import "./content.css"
+import {Myprojects} from "./portfolio"
 function Content(props) {
     return (
         <>
@@ -21,17 +22,11 @@ export function Resume() {
         <a name="About"></a>
         <div className="body-content">
             <Content header="Mahsa Reshadi">
-                <div>front-end developer 
-                test test test test testtest test testtest testtestvtest
-                test test test test testtest test testtest testtestvtest
-                test test test test testtest test testtest testtestvtesttest
-                test test test testtest test testtest testtestvtest
-                test test test test testtest test testtest testtestvtest
-                test test test test testtest test testtest testtestvtest
+                <div>Front-End Developer 
                 </div>
             </Content>
             <Content point="Projects" header="Portfolio">
-                <div>here is my portfolio (another component)</div>
+                <Myprojects></Myprojects>
             </Content>
             <Content point="Education" header="Education">
                 <div>Bachelor Of Science Software Engineering <br/>At University Of Najafabad<br/>
@@ -72,11 +67,7 @@ export function Resume() {
                 <table className="table-of-contact">
                     <tr>
                         <td><img className="contact-png" src="./assets/icon/email.png" alt="email-png" /></td>
-                        <td><span>Mahsa<img id="at" src="./assets/icon/em.png" alt="at-png"/>Reshadi.com</span></td>
-                    </tr>
-                    <tr>
-                        <td><img className="contact-png" src="./assets/icon/phone.png" alt="phone-png" /></td>
-                        <td><span>‪(408) 548-7621</span></td>
+                        <td><span>Mahsa[at]Reshadi[dot]com</span></td>
                     </tr>
                     <tr>
                         <td><img className="contact-png" src="./assets/icon/pin.png" alt="phone-png" /></td>

@@ -1,0 +1,8 @@
+.sites-image{
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+}
+.sites-link{
+    flex-direction: row;
+}

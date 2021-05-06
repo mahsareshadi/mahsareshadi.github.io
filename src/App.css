@@ -39,7 +39,7 @@
         grid-gap: 5px;
         grid-template-columns:auto;
         width: 100%;
-        grid-template-areas:"resume";
+        grid-template-areas:" resume";
         align-content: center;
     }
     #menu,#img,#nav{
