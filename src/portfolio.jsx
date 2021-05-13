@@ -11,11 +11,11 @@ function Portfolio(props){
 export function Myprojects(){
     const projects=[
         {
-        image:"./assets/image/Cream Encouraging Mothers Day Instagram Post (3).png",
+        image:"./assets/image/comeon-.jpg",
         link:"https://mahsareshadi.github.io/comeon/"
         },
         {
-        image:"./assets/image/Cream Encouraging Mothers Day Instagram Post (2).png",
+        image:"./assets/image/foodik-.jpg",
         link:"https://mahsareshadi.github.io/foodik/"
         }
         ];

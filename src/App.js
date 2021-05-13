@@ -3,7 +3,6 @@ import "./app.css"
 import { Navigation } from "./nav"
 import { Menu } from "./menu"
 import Image from "./image"
-import { Myprojects } from "./portfolio"
 
 function App() {
     return (
