@@ -26,7 +26,7 @@ export function Resume() {
                 </div>
             </Content>
             <Content point="Projects" header="Portfolio">
-                <Myprojects></Myprojects>
+                <Myprojects/>
             </Content>
             <Content point="Education" header="Education">
                 <div>Bachelor Of Science Software Engineering <br/>At University Of Najafabad<br/>

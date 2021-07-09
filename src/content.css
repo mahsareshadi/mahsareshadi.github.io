@@ -1,4 +1,8 @@
 @import url(./fonts/fonts.css);
+body{
+    padding: 0px;
+    margin: 0;
+}
 .content-header {
     color: #362616;
     font-family: "font1";
@@ -7,6 +11,7 @@
 
 .body-content {
     text-align: center;
+
 }
 .contact-png{
     width: 40px;
@@ -28,7 +33,8 @@
 .info{
     font-family: "font4";
     color:#664524;
-    min-height: 400px;
+    /* min-height: 400px; */
+    height: 100vh;
     font-size: 40px;
 }
 #test{

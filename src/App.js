@@ -1,5 +1,5 @@
 import { Resume } from "./Content"
-import "./app.css"
+import "./App.css"
 import { Navigation } from "./nav"
 import { Menu } from "./menu"
 import Image from "./image"

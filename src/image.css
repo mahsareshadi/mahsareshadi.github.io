@@ -1,5 +1,8 @@
 #my-img
 {
+    background-color:#dabb9c;
+    width: 360px;
+    height: 100vh;
     justify-content: center;
     position: sticky;
     top: 65px;

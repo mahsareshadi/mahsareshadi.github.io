@@ -1,6 +1,6 @@
 @import url(./fonts/fonts.css);
 .cnt {
-    background-color:#faf0e6;
+    background-color:#dabb9c;
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 65px auto 360px;
