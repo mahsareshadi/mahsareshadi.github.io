@@ -1,6 +1,7 @@
 #my-img
 {
     background-color:#dabb9c;
+    width: 100%;
     height: 100vh;
     justify-content: center;
     position: sticky;
