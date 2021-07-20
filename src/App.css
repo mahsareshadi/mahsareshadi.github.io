@@ -18,8 +18,8 @@
 
 #img {
     grid-area: img;
-    background-color: #faf0e6;
-    width: 360px;
+    background-color: #dabb9c;
+    width: 100%;
 }
 
 #menu {
