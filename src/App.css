@@ -1,4 +1,19 @@
 @import url(./fonts/fonts.css);
+@keyframes transition {
+    from{
+      opacity: 0;
+      transform: rotateX(-10deg);
+    }
+    to{
+      opacity: 1;
+      transform: rotateX(0);
+      }
+    }
+  body{
+      animation: transition 2s;
+      font-family: "Montserrat";
+  }
+
 .cnt {
     background-color:#dabb9c;
     display: grid;
